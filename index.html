@@ -11,7 +11,15 @@ layout: default
 {% endif %}
 
 {% include header.html %}
-<div class="c-posts o-opacity main-content">
+<div class="c-nav">
+  <ul class="c-nav__list u-lists-reset">
+    <li class="c-nav__item is-active"><a href="#welcome-to-github-pages">首页</a></li>
+    <li class="c-nav__item is-active"><a href="#markdown">项目介绍</a></li>
+    <li class="c-nav__item is-active"><a href="#jekyll-themes">Jekyll Themes</a></li>
+    <li class="c-nav__item is-active"><a href="#support-or-contact">Support or Contact</a></li>
+  </ul>
+</div>
+<div class="c-posts o-opacity ">
   {% for post in site.posts  limit:site.paginate offset:offset %}
   {% if post.image %}
   <article class="c-post">
@@ -19,12 +27,11 @@ layout: default
     style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"></a>
     <div class="c-post-content">
       <h2 class="c-post-title">
-        <a>{{post.title}}</a>
+        <a>{{post.image}}</a>
       </h2>
       <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
   </article> <!-- /.c-post -->
   {% else %}
-
     <div class="main-content">
       <p>{{ post.content}}</p>
     </div>
