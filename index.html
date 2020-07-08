@@ -11,15 +11,14 @@ layout: default
 {% endif %}
 
 {% include header.html %}
+<div class="c-nav">
+  <ul class="c-nav__list u-lists-reset">
+    <li class="c-nav__item is-active"><a href="#markdown">Mark down</a></li>
+    <li class="c-nav__item is-active"><a href="#jekyll-themes">Jekyll Themes</a></li>
+    <li class="c-nav__item is-active"><a href="#support-or-contact">Support or Contactl</a></li>
+  </ul>
+</div>
 <div class="c-posts o-opacity ">
-  <div class="c-nav">
-    <ul class="c-nav__list u-lists-reset">
-      <li class="c-nav__item is-active"> <a herf="#support-or-contact">title1</a></li>
-      <li class="c-nav__item is-active"> <a herf="#markdown">title2</a></li>
-      <li class="c-nav__item is-active"> <a herf="#jekyll-themes">title3</a></li>
-      <li class="c-nav__item is-active"> <a herf="">title4</a></li>
-    </ul>
-  </div>
   {% for post in site.posts  limit:site.paginate offset:offset %}
   {% if post.image %}
   <article class="c-post">
