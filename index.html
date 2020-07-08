@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% if paginator.page %}
+  {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+  {% assign currentPage = paginator.page %}
+{% else %}
+  {% assign offset = 0 %}
+  {% assign currentPage = 1 %}
+{% endif %}
+
+{% include header.html %}
+<div class="c-posts o-opacity main-content">
+  {% for post in site.posts  limit:site.paginate offset:offset %}
+  {% if post.image %}
+  <article class="c-post">
+    <a class="c-post-thumbnail o-opacity" 
+    style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"></a>
+    <div class="c-post-content">
+      <h2 class="c-post-title">
+        <a>{{post.title}}</a>
+      </h2>
+      <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+  </article> <!-- /.c-post -->
+  {% else %}
+
+    <div class="main-content">
+      <p>{{ post.content}}</p>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div> <!-- /.c-posts -->
