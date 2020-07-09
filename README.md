@@ -4,7 +4,8 @@ You can use the [editor on GitHub](https://github.com/DBHammer/dbhammer.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-![传统并发模型](https://tva1.sinaimg.cn/large/007S8ZIlly1ggg2dcsrlrj30af0bq74i.jpg) Hello
+![传统并发模型](https://tva1.sinaimg.cn/large/007S8ZIlly1ggg2dcsrlrj30af0bq74i.jpg) 
+Hello
 
 ### Markdown
 
