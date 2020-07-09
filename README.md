@@ -2,7 +2,7 @@
 
 实验室主要研究数据库系统实现核心技术，如高冲突事务处理框架、自适应数据分区等；数据库系统质量保证的关键技术，如面向应用的大规模负载仿真、Benchmark等。
 
-[方向](https://tva1.sinaimg.cn/large/007S8ZIlgy1ggjwsk32phj30jg0jcqg9.jpg) 
+![方向](https://tva1.sinaimg.cn/large/007S8ZIlgy1ggjwsk32phj30jg0jcqg9.jpg) 
 
 ## Woodpecker
 
@@ -36,3 +36,5 @@
 
 # 人员介绍
 
+> 张蓉 `教授`
+> 联系方式：
