@@ -183,6 +183,9 @@ sub {
 
 img {
   border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
 /**
@@ -421,4 +424,17 @@ table {
 td,
 th {
   padding: 0;
+}
+
+blockquote {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding: 0.8rem;
+  overflow: auto;
+  font-size: 1rem;
+  line-height: 1.45;
+  border-radius: 0.5rem;
 }

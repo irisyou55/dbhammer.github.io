@@ -109,22 +109,41 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
-  position: relative;
-  width: 100%;
-  margin: 20px 0;
+  background: #155799 linear-gradient(120deg, rgba(0,255,0,0), rgba(0,255,0,.5));
+   img{
+      width: 500px;
+      height: 149px;
+      max-width: 100%;
+   }
   @include large {
-    padding: 5rem 6rem;
+    padding: 8rem 6rem 1.3rem;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 6rem 4rem 1rem;
+    img{
+      width: 300px;
+      height: 89px;
+      max-width: 100%;
+   }
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 6rem 1rem 1rem;
+    img{
+      width: 200px;
+      height: 60px;
+      max-width: 100%;
+   }
+  }
+
+  .page-box{
+    padding-bottom: 0;
+    width: 100%;
+    max-width: 100%;
   }
 }
+
 
 .project-name {
   margin-top: 0;
@@ -139,29 +158,33 @@ a {
   }
 
   @include small {
-    font-size: 0.9rem;
+    font-size: 1.75rem;
   }
+
+  
 }
 
 .project-tagline {
-  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  font-weight: normal;
   opacity: 0.7;
 
   @include large {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
 
   @include medium {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
+    margin-top: 3rem;
   }
 
   @include small {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
 
 .main-content {
-  width: 100%;
   word-wrap: break-word;
 
   :first-child {
@@ -294,17 +317,20 @@ a {
   }
 
   blockquote {
-    padding: 0 1rem;
-    margin-left: 0;
-    color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
-
-    > :first-child {
-      margin-top: 0;
-    }
-
-    > :last-child {
-      margin-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: hidden;
+    transition: .35s;;
+    background-color: #ffffff;
+    border: solid 1px #f3f6fa;
+    box-shadow: 0.5px 1.5px 1.5px 0.5px rgba(31, 35, 46, .15);
+    &:hover {
+      transform: translate(0px, -1px);
+      box-shadow: 0 10px 30px -15px rgba(10, 16, 34, .2);
     }
   }
 
