@@ -1,44 +1,42 @@
----
-layout: default
-title: "read me"
-category: projects
----
+## 简介
 
-# DBHammer组简介
+You can use the [editor on GitHub](https://github.com/DBHammer/dbhammer.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-实验室主要研究数据库系统实现核心技术，如高冲突事务处理框架、自适应数据分区等；数据库系统质量保证的关键技术，如面向应用的大规模负载仿真、Benchmark等。
-
-<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggjwsk32phj30jg0jcqg9.jpg" alt="image-20200708215814727" style="zoom:50%;" />
-
-## Woodpecker
-
-为了提高数据库测试效率，缓解测试对测试人员的专业性要求，Woodpecker是一款高效的通用数据库测试框架。通过语义明确的测试定义语言(Testing definition language, TDL)实现高效编写测试任务，支持事务、预编译执行、Shell调用、分支和逻辑循环以及高并发下的功能测试，分布式系统测试等功能。Woodpecker同时支持数据库功能测试、性能测试和分布式数据库系统测试。
-
-联系人：[项兆坤](mailto:zkxiang@stu.ecnu.edu.cn)
-
-## Touchstone
-用于解决面向OLAP应用的数据库性能测试中真实数据和负载不可得问题，帮助企业进行数据库选型、PoC测试以及做面向应用的性能优化。Touchstone是面向OLAP应用的合成负载生成器，支持多节点全并行数据生成，目前支持TPC-H前16个查询的完整支持，为业界领先水平。为保证自动化数据生成任务，我们提供自动化采集工具TouchstoneToolChain用于配置收集。
-
-联系人：[王清帅](mailto:qswang@stu.ecnu.edu.cn)
-
-## Artemis
-
-服务于分析型数据库功能测试的自动化测试套件生成工具，是第一个将数据生成、负载生成、结果生成集成到一起并兼具可扩展性、有效性、高效性的测试工作。与传统的基于差异测试的方法相比，在保证最大化测试空间的同时，极大的节约了存储、计算资源，显著提高了测试效率。
-
-联系人：[米凯铭](mailto:mkm@stu.ecnu.edu.cn)
-
-## Lauca
-
-用于解决面向OLTP应用的数据库性能测试中真实数据和负载不可得问题，帮助企业进行数据库选型、PoC测试以及做面向应用的性能优化。在评估数据库系统服务于特定应用的性能时，定义评估的可靠性（负载仿真程度）由合成负载与实际应用负载之间的执行性能相似性决定。Lauca是面向OLTP应用的第一个合成负载生成器，能够实现生成和实际应用负载性能指标高度相似的合成负载，同时保证应用数据的隐蔽性、工具可扩展性和负载可拓展性。
-
-联系人：[张舒燕](mailto:syzhang@stu.ecnu.edu.cn)
-
-## Orca
-
-隔离级别由数据库的并发控制模块实现，涉及到数据库中数据的一致性和完整性，因此隔离级别的正确性对于数据库系统的一致性至关重要；然而，目前对于隔离级别的正确性测试方法存在诸多缺陷，导致难以发现隐藏具体实现中的BUG，从而破坏了数据的一致性，会给数据库用户带来严重的损失。为了解决事务型（OLTP）数据库隔离级别正确性测试中测试效率低下、测试深度不够的问题，我们提出了Orca，一个全面评测数据库隔离级别实现正确性的自动化测试工具，完成高效的、充分的以及有效的OLTP数据库测试。Orca可以帮助数据库生产商完成数据库的开发以及帮助数据库用户进行数据库选型。
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
-联系人：[李可强](mailto:kqli@stu.ecnu.edu.cn)
+### Markdown
 
-# 人员介绍
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DBHammer/dbhammer.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+>You can use the [editor on GitHub](https://github.com/DBHammer/dbhammer.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+>Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
