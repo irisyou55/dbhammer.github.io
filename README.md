@@ -4,8 +4,7 @@ You can use the [editor on GitHub](https://github.com/DBHammer/dbhammer.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-![传统并发模型](https://tva1.sinaimg.cn/large/007S8ZIlly1ggg2dcsrlrj30af0bq74i.jpg) 
-Hello
+![传统并发模型](https://tva1.sinaimg.cn/large/007S8ZIlly1ggg2dcsrlrj30af0bq74i.jpg)Hello
 
 ### Markdown
 
@@ -39,6 +38,13 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
->You can use the [editor on GitHub](https://github.com/DBHammer/dbhammer.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+>You can use the [editor on GitHub](https://github.com/DBHammer/dbhammer.github.io/edit/master/README.md) 
+to maintain and preview the content for your website in Markdown files.
 
 >Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+> ### 王晓桐 `博士`
+>
+> 研究方向：
+>
+> 联系方式：
