@@ -1,6 +1,3 @@
----
-layout: default
----
 # DBHammer组简介
 
 实验室主要研究数据库系统实现核心技术，如高冲突事务处理框架、自适应数据分区等；数据库系统质量保证的关键技术，如面向应用的大规模负载仿真、Benchmark等。
@@ -43,11 +40,11 @@ layout: default
 
 ## 导师
 
-> ### [张蓉]((http://dase.ecnu.edu.cn/dase-module-gateway/dase/teacher/single_teacher.html?teacherId=23)) `教授` `博士生导师` 
+> ### [张蓉](http://dase.ecnu.edu.cn/dase-module-gateway/dase/teacher/single_teacher.html?teacherId=23) `教授` `博士生导师` 
 >
 > **联系电话**：021-62235006
 >
-> **电子邮箱**：rzhang@dase.ecnu.edu.cn
+> **电子邮箱**：[rzhang@dase.ecnu.edu.cn](mailto:rzhang@dase.ecnu.edu.cn)
 >
 > **办公地点**：地理馆317
 >
@@ -60,41 +57,66 @@ layout: default
 
 > ### 王晓桐 `博士`
 >
-> **研究方向**：
+> **研究方向**：分布式流处理系统负载均衡与容错
 >
-> **代表工作**:
+> **代表工作**: 
+> + Cost-effective data partition for distributed stream processing
+> + Evaluating fault tolerance of distributed
+stream processing systems
 >
-> **联系方式**：
+> **联系方式**：[wxt@stu.ecnu.edu.cn](mailto:wxt@stu.ecnu.edu.cn)
 
 > ### 张春熙 `博士`
 >
-> **研究方向**：
+> **研究方向**：数据库性能评测
 >
-> **代表工作**:
+> **代表工作**: 
+> + Quantitative Contention Generation for Performance Evaluation on OLTP Databases
+> + Benchmarking on Intensive Transaction Processing
 >
-> **联系方式**：
+> **联系方式**：[cxzhang@stu.ecnu.edu.cn](mailto:cxzhang@stu.ecnu.edu.cn)
 
 > ### 李可强 `博士`
-> **研究方向**：
+> **研究方向**：数据库基准评测
 >
-> **联系方式**：
+> **联系方式**：[kqli@stu.ecnu.edu.cn](mailto:kqli@stu.ecnu.edu.cn)
 
 > ### 王清帅 `博士`
-> **研究方向**：
+> **研究方向**：面向AP应用的负载模拟、数据分区、HTAP数据库
 >
-> **联系方式**：
+> **联系方式**：[qswang@stu.ecnu.edu.cn](mailto:qswang@stu.ecnu.edu.cn)
 
 > ### 张舒燕 `专硕`
-> **研究方向**：
+> **研究方向**：数据库事务处理、并发控制、面向应用的性能测试
 > 
-> **联系方式**：
+> **联系方式**：[syzhang96@163.com](mailto:syzhang96@163.com)
 
 > ### 米凯铭 `专硕`
-> **研究方向**：
+> **研究方向**：数据库功能测试、自动化测试案例生成
+>
+> **联系方式**：[mkm@stu.ecnu.edu.cn](mailto:mkm@stu.ecnu.edu.cn)
+
+> ### 项兆坤 `学硕`
+> **研究方向**：数据库基准评测
+>
+> **联系方式**：[zkxiang@stu.ecnu.edu.cn](mailto:zkxiang@stu.ecnu.edu.cn)
+
+> ### 瞿璐祎 `学硕`
+> **研究方向**：推荐有代表性的负载、模拟负载生成
+>
+> **联系方式**：[luyiquu@163.com](mailto:luyiquu@163.com)
+
+> ### 游舒泓 `学硕`
+> **研究方向**：数据库慢查询的分析与诊断
+>
+> **联系方式**：[shuhongiris@outlook.com](mailto:shuhongiris@outlook.com)
+
+> ### 连薛超 `专硕`
+> **研究方向**：面向OLTP负载的分布式数据库自适应分区
 >
 > **联系方式**：
 
-> ### 项兆坤 `学硕`
+> ### 陈婷 `专硕`
 > **研究方向**：
 >
 > **联系方式**：
